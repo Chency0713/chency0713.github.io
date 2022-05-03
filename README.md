@@ -1,2 +1,2 @@
-# matahi
-Matahi historical society project
+# haukai
+Haukai restaurant project
