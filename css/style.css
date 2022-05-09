@@ -132,34 +132,32 @@ section{
    }
 }
 
-.home .banner {
-   
-   max-width: 100vh;
-   height: auto;
+.banner {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/RESTAURANT.webp");
+   width: 100%;
+   height:auto;
    background-position: center !important;
    background-repeat: no-repeat;
    background-size: cover !important;
    position: relative;
  }
 
-.home .banner.content{
+.banner .content{
    font-size: 3rem;
    text-align: center;
    position: absolute;
    top:50%;
    left:50%;
    display: block;
-   padding-bottom: .5rem;
-   color:var(--light-white);
-   animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .2s backwards;
+   color:yellow;
+   animation:fadeIn 0.4s cubic-bezier(.54,1.3,.63,1.34) .2s;
 }
 
-.home .banner.content btn{
+.banner .content btn{
    border: none;
    outline: 0;
    display: inline-block;
    padding: 10px 25px;
-   color: black;
    background-color: #ddd;
    text-align: center;
    cursor: pointer;
