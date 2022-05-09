@@ -211,7 +211,7 @@ section{
    font-size: 2rem;
 }
 
-/*about section*/
+
 .about{
    display: flex;
    align-items: center;
@@ -219,13 +219,9 @@ section{
    gap:2rem;
 }
 
-.about .image{
+.about .image img{
    max-width: 100%;
    height: auto;
-}
-
-.about .image img{
-   width: 100%;
 }
 
 .about .content{
