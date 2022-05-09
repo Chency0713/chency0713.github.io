@@ -220,7 +220,8 @@ section{
 }
 
 .about .image{
-   flex:1 1 41rem;
+   max-width: 100%;
+   height: auto;
 }
 
 .about .image img{
