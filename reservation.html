@@ -25,14 +25,14 @@
    <a href="#" class="logo"> <i class="fas fa-utensils"></i> Haukai Restaurant</a>
 
    <nav class="navbar">
-      <a href="index.html#home">home</a>
+      <a href="index.html">home</a>
       <a href="index.html#about">about</a>
       <a href="menu.html">menu</a>
       <a href="#reservation">reservation</a>
       <a href="index.html#contact">contact</a>
    </nav>
 
-   <div id="menu-btn" class="fas fa-bars"></div>
+   <i id="menu-btn" class="fa fa-bars" style="font-size:36px"></i>
 
 </section> 
 
@@ -63,20 +63,17 @@
                 <input type="text" placeholder="Enter your phone number" pattern="(\d{3})-?\s?(\d{3})-?\s?(\d{4})" required>
              </div>
              <div class="inputBox">
-                <span>your comments</span>
+                <span>opening hours</span>
                 <textarea name="" placeholder="Comments (optional)" id="" cols="30" rows="10"></textarea>
              </div>  
           </div> 
  
           <div class="box">
                 <div class="inputBox">
-                   <span>pick up a date</span>
-                   <input type="date" id="date" name="date" placeholder="Pick up your date" value="2022-04-30" min="2022-04-30" max="2022-12-31" required>
+                   <span>pick up a date</span><br>             
+                   <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&showPrint=0&showCalendars=0&showTabs=0&showTz=0&showTitle=0&showNav=0&src=Y2hlbmN5MDcxM0BnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MDUwMzIzNTE0MzE5NDAzNTk4MTNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB&color=%2333B679&color=%233F51B5" style="border:0;" width="auto" height="auto"  scrolling="no"></iframe>
                 </div>
-                <div class="inputBox">
-                   <span>pick up your time</span>
-                   <input type="time" id="time" name="time" placeholder="Select your time" min="11:00:00" max="14:00:00" required>     
-                </div>
+                
                 <div class="inputBox">
                    <span>how many people?</span>
                    <input type="number" id="number" name="number" placeholder="1-10" min="1" max="10" required> 
